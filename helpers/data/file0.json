@@ -1,0 +1,36 @@
+{
+  "chat": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "hi"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "Hello there! 👋  What can I do for you today?  Do you need a gadget from my pocket? 🤔  Just let me know, and I'll see what I can do! \n"
+        }
+      ],
+      "role": "model"
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": " Just sing something And use all kind of symbols For if I put this into a text to speech it read very nicely   "
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "Okay, here's a little song for you, using all kinds of symbols to make it sound extra fun for text-to-speech! 🎶\n\n🎵  🎶  🎶\n\n(♪)  🎵  (♪)  (♪) 🎶  🎶  🎵\n\n🎶  🎶  🎶\n\n(♪)  🎵  🎶  (♪)  🎵  🎶\n\n🎤  🎶  (♪)  🎵  🎶\n\n🎤  🎶  🎶\n\n(♪)  🎵  (♪)  🎵  🎶\n\n🎶  🎶  🎶\n\n(♪)  🎵  🎶  (♪)  🎵  🎶\n\n🎶  🎶  🎶\n\n🎵  🎶  🎵\n\n🎶  🎶  🎶\n\nThis is just a little snippet, but I hope you enjoyed it!  Let me know if you'd like to hear another one.  😊  🎤 \n"
+        }
+      ],
+      "role": "model"
+    }
+  ]
+}

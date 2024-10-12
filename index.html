@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>chat demo</title>
+    <style>
+        #body{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+<input id="i1" type="text" placeholder="msg..." autofocus>
+<p id="p1"></p>
+<button onclick="go()">go</button>
+<script>
+    const {AI}=require("./my_ai/index");
+    const msg= new AI();
+    async function go() {
+        try {
+            const text = await msg.sendText(document.getElementById("i1").value);
+            document.getElementById("p1").innerText = text.response.text();
+        } catch (error) {
+            console.error("Error sending message:", error);
+            document.getElementById("p1").innerText = "Failed to send message.";
+        }
+    }
+
+</script>
+</body>
+</html>
